@@ -42,7 +42,7 @@ void generateBillFooter(float total) {
     printf("\n");
     float dis = 0.1 * total;
     float netTotal = total - dis;
-    float cgst = 0.09 * netTotal, grandTotal = netTotal + 2 * cgst; // netTotal + cgst + sgst
+    float cgst = 0.09 * netTotal, grandTotal = netTotal + 2 * cgst; // netTotal + cgst + sgst          //CGST (Central Goods and Services Tax) and SGST (State Goods and Services Tax)
     printf("---------------------------------------\n");
     printf("Sub Total\t\t\t%.2f", total);
     printf("\nDiscount @10%s\t\t\t%.2f", "%", dis);
